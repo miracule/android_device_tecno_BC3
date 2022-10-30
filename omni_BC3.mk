@@ -12,10 +12,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, vendor/omni/config/common.mk)
 
 # Inherit from TECNO-BC3 device
-$(call inherit-product, device/tecno/TECNO-BC3/device.mk)
+$(call inherit-product, device/tecno/BC3/device.mk)
 
-PRODUCT_DEVICE := TECNO-BC3
-PRODUCT_NAME := omni_TECNO-BC3
+PRODUCT_DEVICE := BC3
+PRODUCT_NAME := omni_BC3
 PRODUCT_BRAND := TECNO
 PRODUCT_MODEL := TECNO BC3
 PRODUCT_MANUFACTURER := tecno
